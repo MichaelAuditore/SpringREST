@@ -7,6 +7,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.util.Objects;
 
+/**
+ * clase User Modelo Relacional a la Tabla Users en H2 Database
+ * para crear objetos que puedan ser insertados en la base datos
+ */
 @Entity
 @Table(name = "Users")
 public class User {
@@ -64,6 +68,10 @@ public class User {
         this.procesado = procesado;
     }
 
+    /**
+     * toString - reemplaza el retorono normal y genera una cadena de texto con
+     * los valores a retornar Return: Una cadena de Texto
+     */
     @Override
     public String toString() {
         return "{ id: " + id + ", nombre: " + nombre + ", apellido"
