@@ -1,0 +1,29 @@
+.page {
+    width: 60%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.navbar-brand {
+    color: rgba(171, 24, 24, 0.9)!important;
+}
+
+.page p {
+    font-weight: 600;
+}
+
+.pd{
+    padding: 20px;
+}
+
+.saveButton {
+    display: none;
+}
+
+label {
+    font-weight: 600!important;
+}
+
+.modal-body p {
+    display: none;
+}
